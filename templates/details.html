@@ -1,0 +1,48 @@
+{% extends 'index.html' %}
+
+<br>
+<br>
+{% block b%}
+
+<div class="container">
+	<table class="table">
+		<tr>
+			<td><b>Name</b></td>
+			<td>{{ z.name }}</td>
+		</tr>
+		<tr>
+			<td><b>No of Challenges Solved</b></td>
+			<td>{{ z.noofchallengessolved }}</td>
+		</tr>
+		<tr>
+			<td><b>Expertise Level</b></td>
+			<td>{{ z.expertiselevel }}</td>
+		</tr>
+		<tr>
+			<td><b>Data Structure</b></td>
+			<td>{{ z.datastructure }}</td>
+		</tr>
+		<tr>
+			<td><b>Algorithm</b></td>
+			<td>{{ z.algo }}</td>
+		</tr>
+		<tr>
+			<td><b>C++</b></td>
+			<td>{{ z.cpp }}</td>
+		</tr>
+		<tr>
+			<td><b>Java</b></td>
+			<td>{{ z.java }}</td>
+		</tr>
+		<tr>
+			<td><b>Python</b></td>
+			<td>{{ z.python }}</td>
+		</tr>
+		
+	</table>
+	
+</div>
+
+
+
+{% endblock %}
